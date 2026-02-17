@@ -1,0 +1,17 @@
+Puntuacion -> 0
+Juego -> True
+While Juego -> True
+   Mostrar Dinosaurio Corriendo
+   Generar Obstaculo
+   if Obstaculo = Cerca
+      if Dinosaurio -> Salta
+          Salta()
+      end if
+      if Dinosaurio -> Choca
+          Juego -> False
+      end if
+   end if
+   Aumentar Puntuacion -> puntuacion + 1
+end while
+Mostrar Game Over
+End

@@ -1,0 +1,21 @@
+Configuración Inicial
+- git config --global user.name "Nombre"
+- git config --global user.email "correo@gmail.com"
+
+Crear un repositorio
+- git init
+
+Agregar archivos
+ - git add .
+
+Guardar cambios
+ - git commit -m "X commit"
+
+Conectar con GitHub
+ - git remote add origin URL_DEL_REPOSITORIO
+
+Subir archivos
+ - git push -u origin main
+
+Clonar un repositorio
+ - git clone URL_DEL_REPOSITORIO
